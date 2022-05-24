@@ -1,2 +1,2 @@
 #!/bin/bash
-chown --form=vincent guillaume hello
+chown --form=guillaume hello vincent
