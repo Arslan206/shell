@@ -4,5 +4,5 @@ cpt=0
 while (($cpt<10))
 do
     echo "Best School"
-    ((cpt+=1))
+    ((cpt++))
 done
