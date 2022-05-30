@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #This while loop displays 'Best School' 10 times
 cpt=0
-while (($cpt < 10))
+while (($cpt<10))
 do
     echo "Best School"
     ((cpt+=1))
