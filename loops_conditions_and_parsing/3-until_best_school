@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#This until loop displays "Best School" 10 times
+cpt=0
+
+until [ $cpt -gt 9 ]
+do
+	echo Best School
+ 	((cpt++))
+done
