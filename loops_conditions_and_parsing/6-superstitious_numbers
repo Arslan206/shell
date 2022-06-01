@@ -7,13 +7,16 @@ cpt=1
 while [ $cpt -le 20 ]
 do
 	case $cpt in
- 		5)
+ 		4)
+		echo $cpt
 		echo "bad luck from China"
  		;;
- 		10)
+ 		9)
+		echo $cpt
  		echo "bad luck from Japan"
  		;;
- 		18)
+ 		17)
+		echo $cpt
  		echo "bad luck from Italy"
 		;;
 		*)
