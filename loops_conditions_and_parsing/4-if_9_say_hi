@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#This while loop displays "Best School" 10 times but for the 9th iteration displays "Hi"
+cpt=0
+while [ $cpt -le 10 ]
+do 
+	if [ $cpt = 9 ]
+	then
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+		((cpt++))
+done
