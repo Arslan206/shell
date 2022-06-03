@@ -3,17 +3,17 @@
 cpt=0
 while [ $cpt -lt 100 ]
 do 
-	if !((cpt%3)) && !((cpt%5))
+	((cpt++))
+	if ! ((cpt%3)) && ! ((cpt%5))
 	then
 		echo FizzBuzz
-	elif !((cpt%3))
+	elif ! ((cpt%3))
 	then
 		echo Fizz
-	elif !((cpt%5))
+	elif ! ((cpt%5))
 	then 
 		echo Buzz
 	else
 		echo $cpt
 	fi
-	((cpt++))
 done
